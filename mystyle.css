@@ -93,20 +93,48 @@ p1 {
     position: absolute;
     margin: auto;
     padding: 0;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 400px;
+    padding-bottom: 400px;
     width: auto;
-    top: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    /*margin: auto;
-    border: 1px solid black;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
+    top: 1095.330px;
+    background-color: rgba(255, 255, 255, 0.6);
 
-    /*position: absolute;
-    top: 100%;*/
 }
+
+p2 {
+    font-family: "Arial", Times, serif;
+    color: black;
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    width: auto;
+    top: 1914px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+p3 {
+    font-family: "Arial", Times, serif;
+    color: black;
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    width: auto;
+    top: 2732.67px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
 body{
     background-image: url("test2.jpg");
     background-attachment: fixed;
