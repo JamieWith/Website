@@ -1,3 +1,5 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 #nav {
     width: 604px;
@@ -39,10 +41,10 @@
 }
 
 h1 {
-
-    color: red;
-    text-align: center;
-    font-family: "Arial", Times, serif;
+  text-decoration: none;
+  color: red;
+  text-align: center;
+  font-family: "Arial", Times, serif;
 
 }
 
@@ -102,27 +104,12 @@ h4 {
   }
 }
 
-#button {
-    width: 604px;
-    margin: auto;
-    list-style:none;
-    font-size: 20px;
-    padding: 10px;
+.button {
     margin-top: 800px;
-    animation-delay: 3s;
+    text-align: center;
+
 }
 
-@keyframes test {
-  20%, 100% {
-    transform: scale3d(.75, .75, 1);
-  }
-}
-
-
-.animatedButton {
-  animation:  test 6s ease-in;
-  transform-origin: right top;
-}
 
 p1 {
     font-family: "Arial", Times, serif;
@@ -192,6 +179,58 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:100% 100%;
+    font-family: 'Lato', sans-serif;
+
+}
 
 
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+
+/* Victoria Buttons */
+a.animated-button.victoria-two {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-two:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
