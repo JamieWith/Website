@@ -2,11 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 #nav {
-    width: 604px;
+    width: 606px;
     margin: auto;
     list-style:none;
     font-size: 20px;
-    padding: 10px;
+    padding: 1px;
 }
 
 #nav li {
@@ -25,10 +25,6 @@
     display:block;
     text-align:center;
     width:150px;
-    transition: max-height 1s;
-
-
-
 }
 
 #nav li a:hover:not(.active) {
@@ -37,14 +33,6 @@
     color: red;
 
 
-
-}
-
-h1 {
-  text-decoration: none;
-  color: red;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
 
 }
 
@@ -84,30 +72,6 @@ h4 {
   font-size: 50px;
   left: 0;
   right: 0;
-}
-
-.animatedName {
-  animation:  fadeAndScale 3s ease-in;
-  transform-origin: right top;
-
-
-}
-
-@keyframes fadeAndScale {
-  from {
-    opacity: 0;
-    transform: scale3d(.75, .75, 1);
-  }
-  to {
-    opacity: 1;
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-.button {
-    margin-top: 800px;
-    text-align: center;
-
 }
 
 
@@ -183,8 +147,7 @@ body{
 
 }
 
-
-/* Global Button Styles */
+/* Global Button Styles
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
 	display: block;
@@ -223,7 +186,7 @@ a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
 	height: 450%;
 }
 
-/* Victoria Buttons */
+/* Victoria Buttons
 a.animated-button.victoria-two {
 	border: 2px solid #D24D57;
 }
@@ -234,3 +197,4 @@ a.animated-button.victoria-two:after {
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
+*/
