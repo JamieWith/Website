@@ -84,7 +84,7 @@ h4 {
   right: 0;
 }
 
-.animatedText {
+.animatedName {
   animation:  fadeAndScale 3s ease-in;
   transform-origin: right top;
 
@@ -100,6 +100,28 @@ h4 {
     opacity: 1;
     transform: scale3d(1, 1, 1);
   }
+}
+
+#button {
+    width: 604px;
+    margin: auto;
+    list-style:none;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 800px;
+    animation-delay: 3s;
+}
+
+@keyframes test {
+  20%, 100% {
+    transform: scale3d(.75, .75, 1);
+  }
+}
+
+
+.animatedButton {
+  animation:  test 6s ease-in;
+  transform-origin: right top;
 }
 
 p1 {
