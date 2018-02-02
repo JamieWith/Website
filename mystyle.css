@@ -147,6 +147,14 @@ p3 {
 
 }
 
+#footer {
+   position:absolute;
+   bottom: 0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+
 body{
     background-image: url("test2.jpg");
     background-attachment: fixed;
