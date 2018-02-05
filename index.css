@@ -257,7 +257,7 @@ section::after {
 #test .right a {
   position: absolute;
   bottom: 20px;
-  right: 40%;
+  right: 80%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -350,7 +350,7 @@ section::after {
 }
 #test a span:after {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   content: '';
   width: 16px;
@@ -468,7 +468,7 @@ section::after {
 }
 #test a span:after {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   content: '';
   width: 16px;
@@ -556,7 +556,7 @@ section::after {
 }
 #test a span::after {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   content: '';
   width: 16px;
@@ -600,7 +600,7 @@ section::after {
 }
 #section4 a span::after {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   content: '';
   width: 16px;
@@ -644,7 +644,7 @@ section::after {
 }
 #test a span::after {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   content: '';
   width: 16px;
@@ -688,7 +688,7 @@ section::after {
 }
 #sectiont a span:after {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   content: '';
   width: 16px;
