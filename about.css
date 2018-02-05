@@ -34,7 +34,7 @@ h2 {
   color: white;
   font-family: 'Lato', sans-serif;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 20px;S
   margin-bottom: 10px;
   width: auto;
   position: absolute;
@@ -63,4 +63,14 @@ body{
     background-size:100% 100%;
     font-family: 'Lato', sans-serif;
 
+}
+p {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  position: absolute;
+  left: 150px;
+  top: 600px;
 }
