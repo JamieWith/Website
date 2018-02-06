@@ -8,8 +8,14 @@
 </head>
 
 <body>
+
+
 <h2 class="animatedName">Withinshaw</h2>
 <h3 class="animatedName">Jamie</h3>
+<div class="test">
+  <p class="animatedName">Portfolio</p>
+</div>
+
 
 <section id="section1" class="top">
   <a href="#section2"><span></span></a>
@@ -23,6 +29,7 @@
   <div class="test">
     <p>At the moment the only real project i have is this website</p>
     <p>It has been done using source control, so you can see its past iterations</p>
+    <p>This has been made purely with CSS and html, no JS required</p>
     <p>Pretty cool huh?</p>
     <a href="https://github.com/JamieWith/Website">
       <img src="https://octicons.github.com/img/og/mark-github.png" class="img" style="width:200px;height:100px;">
@@ -47,11 +54,18 @@
 <section id="sectiont" class="bottom">
   <a href="#section3"><span></span></a>
   <h1>Contact</h1>
-  <div class="emailFadeIn">
-    <p2>Email: jamiewith16@gmail.com</p2>
-  </div>
-
+  <p2>Email: jamiewith16@gmail.com</p2>
 </section>
+
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script>
+  window.sr = ScrollReveal();
+  sr.reveal('#section1', { duration: 3000, rotate: { x: 0, y: 540, z: 0 }, })
+  sr.reveal('.bottom', { duration: 2000 });
+
+</script>
+
 
 </body>
 
