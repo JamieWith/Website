@@ -1,7 +1,10 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 
+=======
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
 
 #nav {
     width: 606px;
@@ -23,7 +26,11 @@
 #nav a {
     color: Silver;
     text-decoration: none;
+<<<<<<< HEAD
     font-family: 'Josefin Sans', sans-serif;
+=======
+    font-family: 'Lato', sans-serif;
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
     display:block;
     text-align:center;
     width:150px;
@@ -33,11 +40,21 @@
     transition:  0.5s ease-out;
     max-height: 300px;
     color: red;
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
 }
 
 h2 {
   color: white;
+<<<<<<< HEAD
   font-family: 'Josefin Sans', sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
   text-align: left;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -51,7 +68,11 @@ h2 {
 
 h3 {
   color: white;
+<<<<<<< HEAD
   font-family: 'Josefin Sans', sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
   text-align: left;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -63,7 +84,11 @@ h3 {
 
 h4 {
   color: black;
+<<<<<<< HEAD
   font-family: 'Josefin Sans', sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
   text-align: center;
   margin: auto;
   position: absolute;
@@ -73,6 +98,7 @@ h4 {
   right: 0;
 }
 
+<<<<<<< HEAD
 section p {
   position: absolute;
   top: 50%;
@@ -89,6 +115,11 @@ section p {
 
 p1 {
     font-family: 'Josefin Sans', sans-serif;
+=======
+
+p1 {
+    font-family: 'Lato', sans-serif;
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
     color: black;
     text-align: center;
     left: 0;
@@ -105,7 +136,11 @@ p1 {
 }
 
 p2 {
+<<<<<<< HEAD
     font-family: 'Josefin Sans', sans-serif;
+=======
+    font-family: 'Lato', sans-serif;
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
     color: black;
     text-align: center;
     left: 0;
@@ -122,7 +157,11 @@ p2 {
 }
 
 p3 {
+<<<<<<< HEAD
     font-family: 'Josefin Sans', sans-serif;
+=======
+    font-family: 'Lato', sans-serif;
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
     color: black;
     text-align: center;
     left: 0;
@@ -139,7 +178,11 @@ p3 {
 }
 
 #footer{
+<<<<<<< HEAD
  font-family: 'Josefin Sans', sans-serif;
+=======
+ font-family: 'Lato', sans-serif;
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
  color: white;
  position: absolute;
  text-align: center;
@@ -155,6 +198,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:100% 100%;
+<<<<<<< HEAD
     font-family: 'Josefin Sans', sans-serif;
 
 }
@@ -280,3 +324,60 @@ section::after {
     opacity: 0;
   }
 }
+=======
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* Global Button Styles
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+  margin-top: 800px;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+
+/* Victoria Buttons
+a.animated-button.victoria-two {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-two:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+*/
+>>>>>>> aa640a7473b0023aefd5adf142cd5727c909f948
