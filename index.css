@@ -4,18 +4,6 @@
 /* Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-p3{
-  position: absolute;
-  top: 53%;
-  left: 10%;
-  right: 10%;
-  z-index: 2;
-  color: #fff;
-  font : normal 300 20px/1 'Josefin Sans', sans-serif;
-  text-align: center;
-  white-space: nowrap;
-  letter-spacing: 4px;
-}
 
 .emailFadeIn{
   animation: EmailFade 3s ease-in;

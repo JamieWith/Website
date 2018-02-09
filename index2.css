@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+
+.animatedName {
+  animation:  fadeAndScale 3s ease-in;
+  transform-origin: right top;
+  font-weight: normal;
+  margin: 2px;
+
+}
+
+@keyframes fadeAndScale {
+  from {
+    opacity: 0;
+    transform: scale3d(.75, .75, 1);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.intropage {
+  position: absolute;
+  top: 60%;
+  left: 48%;
+  font : normal 300 20px/1 'Josefin Sans', sans-serif;
+  white-space: nowrap;
+  letter-spacing: 4px;
+}
+
+.HomeName{
+  font-family: 'Josefin Sans', sans-serif;
+  width: auto;
+  position: absolute;
+  font-size: 200px;
+  font-weight: 10px;
+  left: 5%;
+  bottom: 40%;
+}
+
+a {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.section {
+    height: 100%;
+    padding-top: 20px;
+}
+
+.intropage {
+  position: absolute;
+  top: 60%;
+  left: 48%;
+  font : normal 300 20px/1 'Josefin Sans', sans-serif;
+  white-space: nowrap;
+  letter-spacing: 4px;
+}
