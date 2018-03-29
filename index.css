@@ -42,7 +42,7 @@
 .PortfolioTitle {
   position: absolute;
   top: 100%;
-  left: 45%;
+  left: 43%;
   font : normal 300 50px/1 'Josefin Sans', sans-serif;
   white-space: nowrap;
 }
@@ -58,7 +58,7 @@
 .Review2 {
   position: absolute;
   top: 150%;
-  left: 46%;
+  left: 45%;
   font : normal 300 20px/1 'Josefin Sans', sans-serif;
   white-space: nowrap;
 }
